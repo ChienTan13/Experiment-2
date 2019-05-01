@@ -5,16 +5,19 @@ using namespace std;
 int main()
 {
 	int num1, sum = 0;
-	
+	a:
+	cout << "\n";
+	cout << "\n";
 	cout << "Please enter a number: ";
 	cin >> num1;
 	
-	for (int i=num1; i>=1; i--){
+	for (int i=1; i<=num1; i++){
 		sum = sum + i;
 		
 	}
 	
 	cout << "The sum of all whole numbers from 1 to " << num1 << " is: " << sum;
+	goto a;
 _getch();
 return 0;
 }
