@@ -16,8 +16,17 @@ int main()
 		
 	}
 	
+	if (num1 > 0)
+	{
 	cout << "The sum of all whole numbers from 1 to " << num1 << " is: " << sum;
-	goto b;
+		goto b;
+	}
+	else 
+	{
+		cout << "Thank you!";
+	}
+	
 _getch();
 return 0;
 }
+
